@@ -2,7 +2,7 @@
 
 Materials for the course run by the Graduate School of Life Sciences, University of Cambridge.
 
-- Course website: http://pycam.github.io/
+- Course website: http://alanwilter.github.io/pycam/
 - Booking website: http://www.training.cam.ac.uk/
 
 
@@ -11,7 +11,7 @@ If you wish to run the course on your personal computer, here are the steps to f
 ## Clone this github project
 
 ```bash
-git clone https://github.com/pycam/python-basic.git
+git clone https://github.com/alanwilter/python-basic.git
 cd python-basic
 ```
 
@@ -34,7 +34,7 @@ pip install --upgrade pip
 # install jupyter
 pip install jupyter
 
-# slideshow extension
+# slideshow extension (optional, but nice to have it)
 pip install rise
 jupyter-nbextension install rise --py --sys-prefix
 jupyter nbextension enable rise --py --sys-prefix
@@ -47,8 +47,9 @@ Go to the directory where you've cloned this repository, activate your virtual e
 Your web browser should automatically open with this url http://localhost:8888/tree where you see the directory tree of the course with all the jupyter notebooks.
 
 ```bash
-cd python-basic
-source venv/bin/activate
+# cd python-basic
+# source venv/bin/activate
+
 jupyter notebook
 ```
 
