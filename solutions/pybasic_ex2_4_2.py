@@ -20,7 +20,7 @@ print('There are', len(unique_words), 'distinct words in this song.')
 # Calculate the frequency of each word and store the result into a dictionary
 results = {}
 for w in unique_words:
-    results[w.lower()] = words.count(w)
+    results[w] = words.count(w)
 
 # Print each unique word along with its frequency
 for r in results:
