@@ -3,7 +3,7 @@
 # stores it into a dictionary; and writes the results into a new tab separated file. 
 
 gene_file = ('data/genes.txt')
-output_file = "gene_lengths.txt"
+output_file = "gene_lengths.tsv"
 
 results = []
 # Read a tab delimited file which has 4 columns: gene, chrom, start and end.
