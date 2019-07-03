@@ -33,6 +33,13 @@ for g in genes:
 print("The shortest gene is", shortest_gene, "which is", shortest, "bases long.")
 print("The longest gene is", longest_gene, "which is", longest, "bases long.")
 
+# check if there's more than one
+for g in genes:
+    if g['length'] == longest:
+        print('Longest ones: {}'.format(g['sys_name']))
+    if g['length'] == shortest:
+        print('Shortest ones: {}'.format(g['sys_name']))
+
 # How many genes per chromosome? Print the number of genes per chromosome.
 unique_chrom = set(chromosomes)
 
