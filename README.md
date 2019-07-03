@@ -3,8 +3,6 @@
 Materials for the course run by the Graduate School of Life Sciences, University of Cambridge.
 
 - Course website: http://alanwilter.github.io/pycam/
-- Booking website: http://www.training.cam.ac.uk/
-
 
 If you wish to run the course on your personal computer, here are the steps to follow to get up and running.
 
